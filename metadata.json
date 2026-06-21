@@ -1,0 +1,6 @@
+{
+  "name": "Bracelets Éclat",
+  "description": "Trio de bracelets raffinés dorés. Simple, épuré, livraison rapide partout au Bénin et paiement sécurisé à la livraison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
