@@ -14,11 +14,12 @@ export default function ReviewsSection() {
   const [reviews, setReviews] = useState<Review[]>([
     {
       id: "rev1",
+
       author: "Adjoua K.",
       rating: 5,
       comment: "Absolument ravie de mon achat ! Les bracelets sont brillants, d'une grande finesse et se marient parfaitement. Je les porte tous les jours, la qualité est remarquable. Le paiement à la livraison est tellement simple et sécurisant.",
       date: "Il y a 2 jours",
-      city: "Cotonou, Bénin",
+      city: "Agla, Bénin",
       verifiedPurchase: true,
       image: wristImage
     },
