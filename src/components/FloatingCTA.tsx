@@ -6,7 +6,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, ShoppingBag } from 'lucide-react';
 
-const thumbnailImage = "/src/assets/images/gold_bracelets_display_1782043809762.jpg";
+const thumbnailImage = "/images/gold_bracelets_display_1782043809762.jpg";
 
 interface FloatingCTAProps {
   onOrderClick: () => void;

@@ -6,10 +6,10 @@
 import { useState, useEffect } from 'react';
 import { Star, Sparkles, Clock, Truck, ShieldCheck, Heart, ArrowRight } from 'lucide-react';
 
-const displayImage = "/src/assets/images/gold_bracelets_display_1782043809762.jpg";
-const wristImage = "/src/assets/images/gold_bracelets_wrist_1782043825347.jpg";
-const silverDisplayImage = "/src/assets/images/silver_bracelets_display_perfect_1782046601088.jpg";
-const silverWristImage = "/src/assets/images/silver_bracelets_wrist_perfect_1782046724240.jpg";
+const displayImage = "/images/gold_bracelets_display_1782043809762.jpg";
+const wristImage = "/images/gold_bracelets_wrist_1782043825347.jpg";
+const silverDisplayImage = "/images/silver_bracelets_display_perfect_1782046601088.jpg";
+const silverWristImage = "images/silver_bracelets_wrist_perfect_1782046724240.jpg";
 
 interface ProductHeroProps {
   onOrderClick: () => void;
