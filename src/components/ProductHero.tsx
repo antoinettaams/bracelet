@@ -56,7 +56,7 @@ export default function ProductHero({ onOrderClick }: ProductHeroProps) {
             <div className="relative group overflow-hidden rounded-2xl border border-stone-200/50 bg-white p-2 shadow-sm transition-shadow hover:shadow-md">
               <span className="absolute top-4 left-4 z-10 bg-amber-900/90 text-white font-mono text-[10px] uppercase tracking-widest px-2.5 py-1 rounded-full flex items-center gap-1.5 backdrop-blur-xs">
                 <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                Exclusivité Web — Offre Limitée
+                Exclusivité — Offre Limitée
               </span>
               
               <div className="aspect-square relative overflow-hidden rounded-xl bg-stone-50">
