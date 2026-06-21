@@ -230,9 +230,10 @@ export default function App() {
 
       </main>
 
-      {/* LUXURY EDITORIAL FOOTER */}
+      {/* LUXURY EDITORIAL FOOTER - ALIGNÉ À GAUCHE SUR MOBILE */}
       <footer className="bg-stone-950 text-stone-400 py-12 px-4 sm:px-6 mt-16 border-t border-stone-850">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          {/* Colonne 1 - Brand */}
           <div className="space-y-4">
             <h4 className="font-serif text-white tracking-widest uppercase font-semibold text-sm">Bracelet Éclat</h4>
             <p className="text-xs text-stone-400 max-w-sm leading-relaxed">
@@ -240,24 +241,26 @@ export default function App() {
             </p>
           </div>
 
+          {/* Colonne 2 - Garanties */}
           <div className="space-y-4">
             <h4 className="font-serif text-white tracking-widest uppercase font-semibold text-sm">Garanties & Confiance</h4>
             <div className="space-y-2.5 text-xs text-stone-400">
-              <p className="flex items-center justify-center md:justify-start gap-2">
+              <p className="flex items-center gap-2">
                 <Truck className="w-4 h-4 text-amber-500 shrink-0" />
                 Livraison gratuite à Cotonou et partout au Bénin
               </p>
-              <p className="flex items-center justify-center md:justify-start gap-2">
+              <p className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-amber-500 shrink-0" />
                 Matériaux durables de qualité supérieure
               </p>
-              <p className="flex items-center justify-center md:justify-start gap-2">
+              <p className="flex items-center gap-2">
                 <UserCheck className="w-4 h-4 text-amber-500 shrink-0" />
                 Paiement à la livraison après inspection de votre colis
               </p>
             </div>
           </div>
 
+          {/* Colonne 3 - Service Clients */}
           <div className="space-y-4">
             <h4 className="font-serif text-white tracking-widest uppercase font-semibold text-sm">Service Clients</h4>
             <p className="text-xs text-stone-400 leading-relaxed">
@@ -276,15 +279,9 @@ export default function App() {
                 Discuter sur WhatsApp
               </a>
             </div>
-            <div className="pt-1 text-[10px] font-mono flex items-center justify-center md:justify-start gap-2 text-stone-500">
-              <span>© {new Date().getFullYear()} Bracelet Éclat Bénin</span>
-              <span>•</span>
-              <span>Tous droits réservés</span>
-            </div>
           </div>
         </div>
       </footer>
-
     </div>
   );
 }
