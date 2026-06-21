@@ -6,8 +6,8 @@
 import React, { useState } from 'react';
 import { Star, CheckCircle, MessageSquarePlus, Clock } from 'lucide-react';
 
-const displayImage = "/src/assets/images/gold_bracelets_display_1782043809762.jpg";
-const wristImage = "/src/assets/images/gold_bracelets_wrist_1782043825347.jpg";
+const displayImage = "/images/gold_bracelets_display_1782043809762.jpg";
+const wristImage = "/images/gold_bracelets_wrist_1782043825347.jpg";
 import { Review } from '../types';
 
 export default function ReviewsSection() {
